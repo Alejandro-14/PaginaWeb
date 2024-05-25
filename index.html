@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTiendaGT</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquee con Animación de Scroll</title>
+    <style>
+        /* Estilos opcionales para el marquee */
+        #marquee-container {
+            width: 100%;
+            overflow: hidden; /* Oculta el desbordamiento */
+        }
+
+        #marquee-text {
+            white-space: nowrap; /* Evita el salto de línea */
+            animation: marquee-scroll 30s linear infinite; /* Animación de desplazamiento */
+        }
+
+        /* Animación de desplazamiento */
+        @keyframes marquee-scroll {
+            0% { transform: translateX(100%); } /* Inicio: oculta el texto completamente en el lado derecho */
+            100% { transform: translateX(-100%); } /* Fin: desplaza completamente el texto hacia la izquierda */
+        }
+    </style>
+</head>
+<body>
+    <div id="marquee-container">
+        <marquee id="marquee-text" behavior="scroll" direction="left">
+            José Alejandro Blanco García | 0900 24 10764
+        </marquee>
+</head>
+<body>
+    <header>
+
+        <h1>EcoTiendaGT</h1>
+        <nav>
+            <ul>
+                <li><a href="#quienes-somos">Quienes somos</a></li>
+                <li><a href="#mision-vision">Misión y visión</a></li>
+                <li><a href="#nuestros-productos">Nuestros productos</a></li>
+                <li><a href="#nuestros-proveedores">Nuestros proveedores</a></li>
+                <li><a href="#nuestros-clientes">Nuestros clientes</a></li>
+                <li><a href="#contactenos">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="quienes-somos">
+            <h2>Quienes somos</h2>
+            <p>En EcoShopGT, nos enorgullece ser líderes en la industria de productos ecológicos. Desde nuestros humildes comienzos, nos hemos comprometido a ofrecer alternativas sostenibles y respetuosas con el medio ambiente para satisfacer las necesidades de nuestros clientes.
+
+                Nuestra empresa nació del profundo deseo de hacer una diferencia positiva en el mundo. Nos impulsan valores fundamentales de responsabilidad ambiental, innovación y calidad. Creemos firmemente en la importancia de adoptar un estilo de vida ecológico y en la capacidad de cada individuo para marcar una diferencia significativa en la preservación de nuestro planeta.
+                
+                En EcoShopGT, nos esforzamos por ofrecer productos que no solo sean respetuosos con el medio ambiente, sino también de la más alta calidad. Trabajamos en estrecha colaboración con proveedores éticos y responsables, asegurándonos de que cada artículo que ofrecemos cumpla con rigurosos estándares de sostenibilidad y rendimiento.
+                
+                Nuestro equipo está formado por personas apasionadas y comprometidas que comparten una visión común: crear un futuro más verde y saludable para las generaciones venideras. Estamos aquí para inspirar y capacitar a nuestros clientes a tomar decisiones informadas y responsables en sus compras diarias, demostrando que es posible combinar el cuidado del medio ambiente con el estilo de vida moderno.
+                
+                En resumen, en EcoShopGT, no solo vendemos productos ecológicos, sino que también estamos comprometidos con una causa mayor: el cuidado y la preservación de nuestro precioso planeta. Juntos, estamos creando un mundo mejor, un producto a la vez. La inicitiva de esta empresa, comenzó por un estudiante de ingeniería en sistemas de la Universidad Mariano Galvez.</p>
+            <h3>EcoShopGt fundado por:</h3>
+            <h4>José Alejandro Blanco García</h4>
+            <img src="img/alejandro.jpg" alt="Imagen de quienes somos">
+        </section>
+        
+
+        <section id="mision-vision">
+            <h2>Misión y visión</h2>
+            <p>Misión: Ser una plataforma líder en Guatemala que promueva la adopción de un estilo de vida sostenible y respetuoso con el medio ambiente, ofreciendo productos ecológicos de alta calidad. Nuestra misión es facilitar a los consumidores guatemaltecos el acceso a opciones amigables con la naturaleza, fomentando así la conciencia ambiental y contribuyendo al bienestar del planeta.</p>
+            <p>Visión: Convertirnos en la referencia principal para los consumidores preocupados por el medio ambiente en Guatemala. Queremos ser reconocidos como el lugar donde encontrar productos ecológicos confiables, desde alimentos orgánicos hasta artículos de limpieza y moda sostenible. Nuestra visión es crear un impacto positivo en la sociedad y el entorno natural, inspirando a otros a unirse a nuestro compromiso con la ecología y la preservación del planeta.</p>
+        </section>
+
+        <section id="nuestros-productos">
+            <h2>Nuestros productos</h2>
+            <div class="productos">
+                <!-- Producto 1 -->
+                <div class="producto">
+                    <img src="img/pajillas.jpg" alt="Producto 1">
+                    <h3>Pajillas de acero inoxidable</h3>
+                    <p>Precio: Q.50.00</p>
+                </div>
+                <!-- Producto 2 -->
+                <div class="producto">
+                    <img src="img/bowl.jpg" alt="Producto 2">
+                    <h3>Bowl de bamboo</h3>
+                    <p>Precio: Q.60.00</p>
+                </div>
+                <!-- Producto 3 -->
+                <div class="producto">
+                    <img src="img/cepillodental.jpg" alt="Producto 3">
+                    <h3>Cepillo dental de bamboo</h3>
+                    <p>Precio: Q.50.00</p>
+                </div>
+                <!-- Producto 4 -->
+                <div class="producto">
+                    <img src="img/shampoo.jpg" alt="Producto 4">
+                    <h3>Kit de jabones con estractos naturales</h3>
+                    <p>Precio: Q.155.00</p>
+                </div>
+                <!-- Producto 5 -->
+                <div class="producto">
+                    <img src="img/playera.jpg" alt="Producto 5">
+                    <h3>Playera de bamboo YAKU</h3>
+                    <p>Precio: Q.350.00</p>
+                </div>
+                <!-- Producto 6 -->
+                <div class="producto">
+                    <img src="img/bolsa.jpg" alt="Producto 6">
+                    <h3>Bolsa reutilizable</h3>
+                    <p>Precio: Q.25.00</p>
+                </div>
+                <!-- Producto 7 -->
+                <div class="producto">
+                    <img src="img/recipiente.jpg" alt="Producto 7">
+                    <h3>Recipiente para alimentos ecologico</h3>
+                    <p>Precio: Q.50.00</p>
+                </div>
+                <!-- Producto 8 -->
+                <div class="producto">
+                    <img src="img/utencilios.jpg" alt="Producto 8">
+                    <h3>Juego de utencilios de bamboo con base</h3>
+                    <p>Precio: Q.275.00</p>
+                </div>
+                <!-- Producto 9 -->
+                <div class="producto">
+                    <img src="img/cargador.jpg" alt="Producto 9">
+                    <h3>Cargador portatil con panel solar</h3>
+                    <p>Precio: Q.670.00</p>
+                </div>
+                <!-- Producto 10 -->
+                <div class="producto">
+                    <img src="img/organizador.jpg" alt="Producto 10">
+                    <h3>organizador para escritorio de bamboo</h3>
+                    <p>Precio: Q.125.00</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="nuestros-proveedores">
+            <h2>Nuestros proveedores</h2>
+            <div class="proveedores">
+                <!-- Proveedor 1 -->
+                <div class="proveedor">
+                    <img src="img/jabones.jpg" alt="Proveedor 1">
+                    <h3>Loccitane</h3>
+                </div>
+                <!-- Proveedor 2 -->
+                <div class="proveedor">
+                    <img src="img/bamboo.jpg" alt="Proveedor 2">
+                    <h3>El Bambuito</h3>
+                </div>
+                <!-- Proveedor 3 -->
+                <div class="proveedor">
+                    <img src="img/granota.jpg" alt="Proveedor 3">
+                    <h3>Granota Shirt</h3>
+                </div>
+                <!-- Agrega más proveedores según sea necesario -->
+            </div>
+        </section>
+
+        <section id="nuestros-clientes">
+            <h2>Nuestros clientes</h2>
+            <ul class="clientes">
+                <!-- Cliente 1 -->
+                <li>
+                    <img src="img/hotel.jpg" alt="Cliente 1">
+                    <span>Hotel Westin Camino Real</span>
+                </li>
+                <!-- Cliente 2 -->
+                <li>
+                    <img src="img/estudio.jpg" alt="Cliente 2">
+                    <span>Lucero Auyón Studio</span>
+                </li>
+                <!-- Cliente 3 -->
+                <li>
+                    <img src="img/siman.jpg" alt="Cliente 3">
+                    <span>Siman</span>
+                </li>
+                <!-- Agrega más clientes según sea necesario -->
+            </ul>
+        </section>
+
+        <section id="contactenos">
+            <h2>Contáctenos</h2>
+            <p><strong>Teléfono:</strong> +502 8962 7766</p>
+        <p><strong>Email:</strong> EcoShopGt@gmail.com</p>
+        <p><strong>Dirección:</strong> GFF8+769, Cdad. de Guatemala </p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="mapa">
+                <h2>Encuentranos en esta ubicación</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.328847600414!2d-90.5344056!3d14.523172999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a735e725fc91%3A0xd7e24c91a75d0c8f!2sEcoCentro%20Los%20%C3%81lamos!5e0!3m2!1ses!2sgt!4v1716609470846!5m2!1ses!2sgt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="redes-sociales">
+                <h3>Síguenos en nuestras redes sociales</h3>
+                <p>
+                    <a href="https://facebook.com" target="_blank">Facebook</a> |
+                    <a href="https://twitter.com" target="_blank">Twitter</a> |
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tienda de Productos Ecológicos. Todos los derechos reservados.</p>
+        <p>UNIVERSIDAD MARIANO GALVEZ -  “Y conoceréis la verdad y la verdad os hará libres”.</p>
+        <img src="img/umg.jpg" alt="Logo de la Universidad">
+    </footer>
+    
+</body>
+</html>
